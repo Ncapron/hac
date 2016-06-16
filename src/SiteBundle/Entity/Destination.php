@@ -22,6 +22,11 @@ class Destination
     /**
      * @var string
      */
+    private $ville;
+
+    /**
+     * @var string
+     */
     private $transports;
 
     /**
@@ -61,6 +66,29 @@ class Destination
     public function getPays()
     {
         return $this->pays;
+    }
+
+    /**
+     * Set ville
+     *
+     * @param string $ville
+     * @return Destination
+     */
+    public function setVille($ville)
+    {
+        $this->ville = $ville;
+
+        return $this;
+    }
+
+    /**
+     * Get ville
+     *
+     * @return string 
+     */
+    public function getVille()
+    {
+        return $this->ville;
     }
 
     /**
