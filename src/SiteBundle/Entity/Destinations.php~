@@ -5,7 +5,7 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Destination
+ * Destinations
  */
 class Destinations
 {

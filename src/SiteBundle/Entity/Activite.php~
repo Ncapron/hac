@@ -5,9 +5,9 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Logement
+ * Activite
  */
-class Logement
+class Activite
 {
     /**
      * @var int

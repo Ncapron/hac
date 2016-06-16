@@ -9,7 +9,7 @@ SiteBundle\Entity\Destinations:
             generator:
                 strategy: AUTO
     fields:
-        France/Paris:
+        France_Paris:
 
         cout:
             type: integer

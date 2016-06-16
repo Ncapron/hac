@@ -17,7 +17,7 @@ class Destinations
     /**
      * @var string
      */
-    private $France/Paris;
+    private $France_Paris;
 
     /**
      * @var integer
@@ -36,26 +36,26 @@ class Destinations
     }
 
     /**
-     * Set France/Paris
+     * Set France_Paris
      *
-     * @param string $france/Paris
+     * @param string $franceParis
      * @return Destinations
      */
-    public function setFrance/Paris($france/Paris)
+    public function setFranceParis($franceParis)
     {
-        $this->France/Paris = $france/Paris;
+        $this->France_Paris = $franceParis;
 
         return $this;
     }
 
     /**
-     * Get France/Paris
+     * Get France_Paris
      *
      * @return string 
      */
-    public function getFrance/Paris()
+    public function getFranceParis()
     {
-        return $this->France/Paris;
+        return $this->France_Paris;
     }
 
     /**
