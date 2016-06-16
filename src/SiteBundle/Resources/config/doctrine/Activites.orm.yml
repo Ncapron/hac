@@ -33,5 +33,10 @@ SiteBundle\Entity\Activites:
         cout:
             type: integer
 
-
+        manyToOne:
+            activite:
+                targetEntity: SiteBundle\Entity\Activite
+                joinColumn:
+                    name: activite_id
+                    referencedColumnName: id
     lifecycleCallbacks: {  }

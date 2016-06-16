@@ -55,6 +55,11 @@ class Activites
      */
     private $cout;
 
+    /**
+     * @var string
+     */
+    private $manyToOne;
+
 
     /**
      * Get id
@@ -248,5 +253,28 @@ class Activites
     public function getCout()
     {
         return $this->cout;
+    }
+
+    /**
+     * Set manyToOne
+     *
+     * @param string $manyToOne
+     * @return Activites
+     */
+    public function setManyToOne($manyToOne)
+    {
+        $this->manyToOne = $manyToOne;
+
+        return $this;
+    }
+
+    /**
+     * Get manyToOne
+     *
+     * @return string 
+     */
+    public function getManyToOne()
+    {
+        return $this->manyToOne;
     }
 }
