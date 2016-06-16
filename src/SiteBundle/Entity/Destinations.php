@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Destination
  */
-class Destination
+class Destinations
 {
     /**
      * @var integer
@@ -49,7 +49,7 @@ class Destination
      * Set pays
      *
      * @param string $pays
-     * @return Destination
+     * @return Destinations
      */
     public function setPays($pays)
     {
@@ -72,7 +72,7 @@ class Destination
      * Set ville
      *
      * @param string $ville
-     * @return Destination
+     * @return Destinations
      */
     public function setVille($ville)
     {
@@ -95,7 +95,7 @@ class Destination
      * Set transports
      *
      * @param string $transports
-     * @return Destination
+     * @return Destinations
      */
     public function setTransports($transports)
     {
@@ -118,7 +118,7 @@ class Destination
      * Set cout
      *
      * @param integer $cout
-     * @return Destination
+     * @return Destinations
      */
     public function setCout($cout)
     {

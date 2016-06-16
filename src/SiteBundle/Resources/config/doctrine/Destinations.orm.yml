@@ -1,7 +1,7 @@
-SiteBundle\Entity\Destination:
+SiteBundle\Entity\Destinations:
     type: entity
     table: null
-    repositoryClass: SiteBundle\Repository\DestinationRepository
+    repositoryClass: SiteBundle\Repository\DestinationsRepository
     id:
         id:
             type: integer
@@ -9,7 +9,7 @@ SiteBundle\Entity\Destination:
             generator:
                 strategy: AUTO
     fields:
-        pays_ville:
+        France/Paris:
 
         cout:
             type: integer
