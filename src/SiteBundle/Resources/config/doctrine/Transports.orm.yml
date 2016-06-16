@@ -1,0 +1,18 @@
+SiteBundle\Entity\Transports:
+    type: entity
+    table: null
+    repositoryClass: SiteBundle\Repository\TransportsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        voiture:
+            type: string
+            length: 255
+        avion:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

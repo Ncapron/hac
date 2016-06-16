@@ -1,7 +1,7 @@
-SiteBundle\Entity\Logement:
+SiteBundle\Entity\Destination:
     type: entity
     table: null
-    repositoryClass: SiteBundle\Repository\LogementRepository
+    repositoryClass: SiteBundle\Repository\DestinationRepository
     id:
         id:
             type: integer
