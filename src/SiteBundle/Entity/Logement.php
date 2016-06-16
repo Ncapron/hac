@@ -24,6 +24,11 @@ class Logement
      */
     private $hotel;
 
+    /**
+     * @var int
+     */
+    private $cout;
+
 
     /**
      * Get id
@@ -79,5 +84,28 @@ class Logement
     public function getHotel()
     {
         return $this->hotel;
+    }
+
+    /**
+     * Set cout
+     *
+     * @param integer $cout
+     * @return Logement
+     */
+    public function setCout($cout)
+    {
+        $this->cout = $cout;
+
+        return $this;
+    }
+
+    /**
+     * Get cout
+     *
+     * @return integer 
+     */
+    public function getCout()
+    {
+        return $this->cout;
     }
 }

@@ -15,4 +15,6 @@ SiteBundle\Entity\Logement:
         hotel:
             type: string
             length: 255
+        cout:
+            type: integer
     lifecycleCallbacks: {  }
