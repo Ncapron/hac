@@ -28,7 +28,7 @@ SiteBundle\Entity\Logement:
             type: string
             length: 255
         grotte:
-            type:string
+            type: string
             length: 255
         cout:
             type: integer
