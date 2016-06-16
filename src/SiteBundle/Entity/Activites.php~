@@ -5,8 +5,8 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Voyage
+ * Activites
  */
-class Voyage
+class Activites
 {
 }

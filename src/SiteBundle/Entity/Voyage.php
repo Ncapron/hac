@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Voyage
 {
     /**
-     * @var int
+     * @var integer
      */
     private $id;
 
@@ -22,10 +22,10 @@ class Voyage
     /**
      * @var \DateTime
      */
-    private $date;
+    private $date_depart;
 
     /**
-     * @var int
+     * @var integer
      */
     private $nombresJours;
 
@@ -64,26 +64,26 @@ class Voyage
     }
 
     /**
-     * Set date
+     * Set date_depart
      *
-     * @param \DateTime $date
+     * @param \DateTime $dateDepart
      * @return Voyage
      */
-    public function setDate($date)
+    public function setDateDepart($dateDepart)
     {
-        $this->date = $date;
+        $this->date_depart = $dateDepart;
 
         return $this;
     }
 
     /**
-     * Get date
+     * Get date_depart
      *
      * @return \DateTime 
      */
-    public function getDate()
+    public function getDateDepart()
     {
-        return $this->date;
+        return $this->date_depart;
     }
 
     /**
