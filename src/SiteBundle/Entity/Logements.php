@@ -5,9 +5,9 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Logement
+ * Logements
  */
-class Logement
+class Logements
 {
     /**
      * @var int
@@ -44,7 +44,7 @@ class Logement
      * Set camping
      *
      * @param string $camping
-     * @return Logement
+     * @return Logements
      */
     public function setCamping($camping)
     {
@@ -67,7 +67,7 @@ class Logement
      * Set hotel
      *
      * @param string $hotel
-     * @return Logement
+     * @return Logements
      */
     public function setHotel($hotel)
     {
@@ -90,7 +90,7 @@ class Logement
      * Set cout
      *
      * @param integer $cout
-     * @return Logement
+     * @return Logements
      */
     public function setCout($cout)
     {
@@ -138,7 +138,7 @@ class Logement
      * Set chambre_hote
      *
      * @param string $chambreHote
-     * @return Logement
+     * @return Logements
      */
     public function setChambreHote($chambreHote)
     {
@@ -161,7 +161,7 @@ class Logement
      * Set location_appt
      *
      * @param string $locationAppt
-     * @return Logement
+     * @return Logements
      */
     public function setLocationAppt($locationAppt)
     {
@@ -184,7 +184,7 @@ class Logement
      * Set location_mobile_home
      *
      * @param string $locationMobileHome
-     * @return Logement
+     * @return Logements
      */
     public function setLocationMobileHome($locationMobileHome)
     {
@@ -207,7 +207,7 @@ class Logement
      * Set yourte
      *
      * @param string $yourte
-     * @return Logement
+     * @return Logements
      */
     public function setYourte($yourte)
     {
@@ -230,7 +230,7 @@ class Logement
      * Set grotte
      *
      * @param string $grotte
-     * @return Logement
+     * @return Logements
      */
     public function setGrotte($grotte)
     {
