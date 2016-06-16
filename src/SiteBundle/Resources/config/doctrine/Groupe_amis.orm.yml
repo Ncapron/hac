@@ -14,7 +14,7 @@ SiteBundle\Entity\Groupe_amis:
             length: 255
             column: nom_group
         budget:
-            type: string
+            type: integer
             length: 255
             column: budget
     lifecycleCallbacks: {  }
