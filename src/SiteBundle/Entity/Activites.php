@@ -25,7 +25,7 @@ class Activites
     private $paintball;
 
     /**
-     * @var string
+     * @var integer
      */
     private $cout;
 
@@ -89,7 +89,7 @@ class Activites
     /**
      * Set cout
      *
-     * @param string $cout
+     * @param integer $cout
      * @return Activites
      */
     public function setCout($cout)
@@ -102,7 +102,7 @@ class Activites
     /**
      * Get cout
      *
-     * @return string 
+     * @return integer 
      */
     public function getCout()
     {

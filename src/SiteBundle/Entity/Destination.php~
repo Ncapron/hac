@@ -1,0 +1,12 @@
+<?php
+
+namespace SiteBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Destination
+ */
+class Destination
+{
+}
