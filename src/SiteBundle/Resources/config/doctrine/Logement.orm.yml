@@ -1,0 +1,18 @@
+SiteBundle\Entity\Logement:
+    type: entity
+    table: null
+    repositoryClass: SiteBundle\Repository\LogementRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        camping:
+            type: string
+            length: 255
+        hotel:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
