@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 site:
     resource: "@SiteBundle/Resources/config/routing.yml"
+=======
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+>>>>>>> 4a23077d13b94efd555c955a5f41af6bca2da106
     prefix:   /
 
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
