@@ -1,7 +1,7 @@
-SiteBundle\Entity\Activites:
+SiteBundle\Entity\Destination:
     type: entity
     table: null
-    repositoryClass: SiteBundle\Repository\ActivitesRepository
+    repositoryClass: SiteBundle\Repository\DestinationRepository
     id:
         id:
             type: integer
@@ -9,10 +9,17 @@ SiteBundle\Entity\Activites:
             generator:
                 strategy: AUTO
     fields:
-        randonnee:
+        allemagne:
             type: string
             length: 255
-        paintball:
+        paysBas:
+            type: string
+            length: 255
+            column: pays_bas
+        albanie:
+            type: string
+            length: 255
+        espagne:
             type: string
             length: 255
         cout:
