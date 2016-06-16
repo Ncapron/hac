@@ -1,0 +1,21 @@
+SiteBundle\Entity\Voyage:
+    type: entity
+    table: null
+    repositoryClass: SiteBundle\Repository\VoyageRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nomProjet:
+            type: string
+            length: 255
+            column: nom_projet
+        date:
+            type: date
+        nombresJours:
+            type: integer
+            column: nombres_jours
+    lifecycleCallbacks: {  }
