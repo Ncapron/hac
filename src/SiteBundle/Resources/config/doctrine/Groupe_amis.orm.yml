@@ -17,11 +17,4 @@ SiteBundle\Entity\Groupe_amis:
             type: integer
             length: 255
             column: budget
-
-    manyToOne:
-        user:
-            targetEntity: UserBundle\Entity\User
-            joinColumn:
-                name: user_id
-                referencedColumnName: id
 lifecycleCallbacks: {  }

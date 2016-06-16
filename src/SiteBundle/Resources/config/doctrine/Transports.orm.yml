@@ -9,10 +9,19 @@ SiteBundle\Entity\Transports:
             generator:
                 strategy: AUTO
     fields:
-        voiture:
+        location_vehicule:
             type: string
             length: 255
         avion:
+            type: string
+            length: 255
+        bateau:
+            type: string
+            length: 255
+        taxi:
+            type: string
+            length: 255
+        transport_commun:
             type: string
             length: 255
     lifecycleCallbacks: {  }

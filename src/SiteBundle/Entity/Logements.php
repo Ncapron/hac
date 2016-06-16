@@ -9,8 +9,9 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Logements
 {
+
     /**
-     * @var int
+     * @var integer
      */
     private $id;
 
@@ -25,7 +26,32 @@ class Logements
     private $hotel;
 
     /**
-     * @var int
+     * @var string
+     */
+    private $chambre_hote;
+
+    /**
+     * @var string
+     */
+    private $location_appartement;
+
+    /**
+     * @var string
+     */
+    private $location_mobile_home;
+
+    /**
+     * @var string
+     */
+    private $location_de_maison;
+
+    /**
+     * @var string
+     */
+    private $location_chalet;
+
+    /**
+     * @var integer
      */
     private $cout;
 
@@ -87,54 +113,6 @@ class Logements
     }
 
     /**
-     * Set cout
-     *
-     * @param integer $cout
-     * @return Logements
-     */
-    public function setCout($cout)
-    {
-        $this->cout = $cout;
-
-        return $this;
-    }
-
-    /**
-     * Get cout
-     *
-     * @return integer 
-     */
-    public function getCout()
-    {
-        return $this->cout;
-    }
-    /**
-     * @var string
-     */
-    private $chambre_hote;
-
-    /**
-     * @var string
-     */
-    private $location_appt;
-
-    /**
-     * @var string
-     */
-    private $location_mobile_home;
-
-    /**
-     * @var string
-     */
-    private $yourte;
-
-    /**
-     * @var string
-     */
-    private $grotte;
-
-
-    /**
      * Set chambre_hote
      *
      * @param string $chambreHote
@@ -158,26 +136,26 @@ class Logements
     }
 
     /**
-     * Set location_appt
+     * Set location_appartement
      *
-     * @param string $locationAppt
+     * @param string $locationAppartement
      * @return Logements
      */
-    public function setLocationAppt($locationAppt)
+    public function setLocationAppartement($locationAppartement)
     {
-        $this->location_appt = $locationAppt;
+        $this->location_appartement = $locationAppartement;
 
         return $this;
     }
 
     /**
-     * Get location_appt
+     * Get location_appartement
      *
      * @return string 
      */
-    public function getLocationAppt()
+    public function getLocationAppartement()
     {
-        return $this->location_appt;
+        return $this->location_appartement;
     }
 
     /**
@@ -204,48 +182,71 @@ class Logements
     }
 
     /**
-     * Set yourte
+     * Set location_de_maison
      *
-     * @param string $yourte
+     * @param string $locationDeMaison
      * @return Logements
      */
-    public function setYourte($yourte)
+    public function setLocationDeMaison($locationDeMaison)
     {
-        $this->yourte = $yourte;
+        $this->location_de_maison = $locationDeMaison;
 
         return $this;
     }
 
     /**
-     * Get yourte
+     * Get location_de_maison
      *
      * @return string 
      */
-    public function getYourte()
+    public function getLocationDeMaison()
     {
-        return $this->yourte;
+        return $this->location_de_maison;
     }
 
     /**
-     * Set grotte
+     * Set location_chalet
      *
-     * @param string $grotte
+     * @param string $locationChalet
      * @return Logements
      */
-    public function setGrotte($grotte)
+    public function setLocationChalet($locationChalet)
     {
-        $this->grotte = $grotte;
+        $this->location_chalet = $locationChalet;
 
         return $this;
     }
 
     /**
-     * Get grotte
+     * Get location_chalet
      *
      * @return string 
      */
-    public function getGrotte()
+    public function getLocationChalet()
     {
-        return $this->grotte;
+        return $this->location_chalet;
+    }
+
+    /**
+     * Set cout
+     *
+     * @param integer $cout
+     * @return Logements
+     */
+    public function setCout($cout)
+    {
+        $this->cout = $cout;
+
+        return $this;
+    }
+
+    /**
+     * Get cout
+     *
+     * @return integer 
+     */
+    public function getCout()
+    {
+        return $this->cout;
     }
 }

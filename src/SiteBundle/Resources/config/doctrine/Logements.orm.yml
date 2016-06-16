@@ -18,16 +18,16 @@ SiteBundle\Entity\Logements:
         chambre_hote:
             type: string
             length: 255
-        location_appt:
+        location_appartement:
             type: string
             length: 255
         location_mobile_home:
             type: string
             length: 255
-        yourte:
+        location_de_maison:
             type: string
             length: 255
-        grotte:
+        location_chalet:
             type: string
             length: 255
         cout:
