@@ -17,17 +17,7 @@ class Destinations
     /**
      * @var string
      */
-    private $pays;
-
-    /**
-     * @var string
-     */
-    private $ville;
-
-    /**
-     * @var string
-     */
-    private $transports;
+    private $France/Paris;
 
     /**
      * @var integer
@@ -46,72 +36,26 @@ class Destinations
     }
 
     /**
-     * Set pays
+     * Set France/Paris
      *
-     * @param string $pays
+     * @param string $france/Paris
      * @return Destinations
      */
-    public function setPays($pays)
+    public function setFrance/Paris($france/Paris)
     {
-        $this->pays = $pays;
+        $this->France/Paris = $france/Paris;
 
         return $this;
     }
 
     /**
-     * Get pays
+     * Get France/Paris
      *
      * @return string 
      */
-    public function getPays()
+    public function getFrance/Paris()
     {
-        return $this->pays;
-    }
-
-    /**
-     * Set ville
-     *
-     * @param string $ville
-     * @return Destinations
-     */
-    public function setVille($ville)
-    {
-        $this->ville = $ville;
-
-        return $this;
-    }
-
-    /**
-     * Get ville
-     *
-     * @return string 
-     */
-    public function getVille()
-    {
-        return $this->ville;
-    }
-
-    /**
-     * Set transports
-     *
-     * @param string $transports
-     * @return Destinations
-     */
-    public function setTransports($transports)
-    {
-        $this->transports = $transports;
-
-        return $this;
-    }
-
-    /**
-     * Get transports
-     *
-     * @return string 
-     */
-    public function getTransports()
-    {
-        return $this->transports;
+        return $this->France/Paris;
     }
 
     /**
