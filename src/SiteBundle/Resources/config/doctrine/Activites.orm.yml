@@ -15,6 +15,21 @@ SiteBundle\Entity\Activites:
         paintball:
             type: string
             length: 255
+        tir_arc:
+            type: string
+            length: 255
+        kayak:
+            type: string
+            length: 255
+        visite_musee:
+            type: string
+            length: 255
+        trekking:
+            type: string
+            length: 255
+        peche_maritime:
+            type: string
+            length: 255
         cout:
             type: integer
     lifecycleCallbacks: {  }

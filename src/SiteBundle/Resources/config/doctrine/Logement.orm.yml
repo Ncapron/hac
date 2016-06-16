@@ -15,6 +15,21 @@ SiteBundle\Entity\Logement:
         hotel:
             type: string
             length: 255
+        chambre_hote:
+            type: string
+            length: 255
+        location_appt:
+            type: string
+            length: 255
+        location_mobile_home:
+            type: string
+            length: 255
+        yourte:
+            type: string
+            length: 255
+        grotte:
+            type:string
+            length: 255
         cout:
             type: integer
     lifecycleCallbacks: {  }
