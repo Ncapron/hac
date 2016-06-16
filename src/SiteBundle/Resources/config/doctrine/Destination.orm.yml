@@ -9,6 +9,7 @@ SiteBundle\Entity\Destination:
             generator:
                 strategy: AUTO
     fields:
+        pays_ville:
 
         cout:
             type: integer
