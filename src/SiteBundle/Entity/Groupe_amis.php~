@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Groupe_amis
 {
+
     /**
      * @var integer
      */
@@ -20,9 +21,14 @@ class Groupe_amis
     private $nomGroup;
 
     /**
-     * @var string
+     * @var integer
      */
     private $budget;
+
+    /**
+     * @var \UserBundle\Entity\User
+     */
+    private $user;
 
 
     /**
@@ -61,7 +67,7 @@ class Groupe_amis
     /**
      * Set budget
      *
-     * @param string $budget
+     * @param integer $budget
      * @return Groupe_amis
      */
     public function setBudget($budget)
@@ -74,10 +80,33 @@ class Groupe_amis
     /**
      * Get budget
      *
-     * @return string 
+     * @return integer 
      */
     public function getBudget()
     {
         return $this->budget;
+    }
+
+    /**
+     * Set user
+     *
+     * @param \UserBundle\Entity\User $user
+     * @return Groupe_amis
+     */
+    public function setUser(\UserBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \UserBundle\Entity\User 
+     */
+    public function getUser()
+    {
+        return $this->user;
     }
 }

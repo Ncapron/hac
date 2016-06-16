@@ -8,4 +8,4 @@ SiteBundle\Entity\Activite:
             id: true
             generator:
                 strategy: AUTO
-    lifecycleCallbacks: {  }
+lifecycleCallbacks: {  }

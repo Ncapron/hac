@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Activites
 {
+
     /**
      * @var integer
      */
@@ -23,6 +24,31 @@ class Activites
      * @var string
      */
     private $paintball;
+
+    /**
+     * @var string
+     */
+    private $tir_arc;
+
+    /**
+     * @var string
+     */
+    private $kayak;
+
+    /**
+     * @var string
+     */
+    private $visite_musee;
+
+    /**
+     * @var string
+     */
+    private $trekking;
+
+    /**
+     * @var string
+     */
+    private $peche_maritime;
 
     /**
      * @var integer
@@ -85,54 +111,6 @@ class Activites
     {
         return $this->paintball;
     }
-
-    /**
-     * Set cout
-     *
-     * @param integer $cout
-     * @return Activites
-     */
-    public function setCout($cout)
-    {
-        $this->cout = $cout;
-
-        return $this;
-    }
-
-    /**
-     * Get cout
-     *
-     * @return integer 
-     */
-    public function getCout()
-    {
-        return $this->cout;
-    }
-    /**
-     * @var string
-     */
-    private $tir_arc;
-
-    /**
-     * @var string
-     */
-    private $kayak;
-
-    /**
-     * @var string
-     */
-    private $visite_musee;
-
-    /**
-     * @var string
-     */
-    private $trekking;
-
-    /**
-     * @var string
-     */
-    private $peche_maritime;
-
 
     /**
      * Set tir_arc
@@ -247,5 +225,28 @@ class Activites
     public function getPecheMaritime()
     {
         return $this->peche_maritime;
+    }
+
+    /**
+     * Set cout
+     *
+     * @param integer $cout
+     * @return Activites
+     */
+    public function setCout($cout)
+    {
+        $this->cout = $cout;
+
+        return $this;
+    }
+
+    /**
+     * Get cout
+     *
+     * @return integer 
+     */
+    public function getCout()
+    {
+        return $this->cout;
     }
 }
