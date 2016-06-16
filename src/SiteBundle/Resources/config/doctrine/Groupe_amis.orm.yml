@@ -1,0 +1,20 @@
+SiteBundle\Entity\Groupe_amis:
+    type: entity
+    table: null
+    repositoryClass: SiteBundle\Repository\Groupe_amisRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nomGroup:
+            type: string
+            length: 255
+            column: nom_group
+        budget:
+            type: string
+            length: 255
+            column: budget
+    lifecycleCallbacks: {  }
