@@ -9,15 +9,7 @@ SiteBundle\Entity\Destination:
             generator:
                 strategy: AUTO
     fields:
-        pays:
-            type: string
-            length: 255
-        ville:
-            type: string
-            length: 255
-        transports:
-            type: string
-            length: 255
+
         cout:
             type: integer
     lifecycleCallbacks: {  }
