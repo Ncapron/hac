@@ -9,17 +9,10 @@ SiteBundle\Entity\Destination:
             generator:
                 strategy: AUTO
     fields:
-        allemagne:
+        pays:
             type: string
             length: 255
-        paysBas:
-            type: string
-            length: 255
-            column: pays_bas
-        albanie:
-            type: string
-            length: 255
-        espagne:
+        transports:
             type: string
             length: 255
         cout:

@@ -5,27 +5,27 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Destination
+ * Logement
  */
-class Destination
+class Logement
 {
     /**
-     * @var integer
+     * @var int
      */
     private $id;
 
     /**
      * @var string
      */
-    private $pays;
+    private $camping;
 
     /**
      * @var string
      */
-    private $transports;
+    private $hotel;
 
     /**
-     * @var integer
+     * @var int
      */
     private $cout;
 
@@ -41,56 +41,56 @@ class Destination
     }
 
     /**
-     * Set pays
+     * Set camping
      *
-     * @param string $pays
-     * @return Destination
+     * @param string $camping
+     * @return Logement
      */
-    public function setPays($pays)
+    public function setCamping($camping)
     {
-        $this->pays = $pays;
+        $this->camping = $camping;
 
         return $this;
     }
 
     /**
-     * Get pays
+     * Get camping
      *
      * @return string 
      */
-    public function getPays()
+    public function getCamping()
     {
-        return $this->pays;
+        return $this->camping;
     }
 
     /**
-     * Set transports
+     * Set hotel
      *
-     * @param string $transports
-     * @return Destination
+     * @param string $hotel
+     * @return Logement
      */
-    public function setTransports($transports)
+    public function setHotel($hotel)
     {
-        $this->transports = $transports;
+        $this->hotel = $hotel;
 
         return $this;
     }
 
     /**
-     * Get transports
+     * Get hotel
      *
      * @return string 
      */
-    public function getTransports()
+    public function getHotel()
     {
-        return $this->transports;
+        return $this->hotel;
     }
 
     /**
      * Set cout
      *
      * @param integer $cout
-     * @return Destination
+     * @return Logement
      */
     public function setCout($cout)
     {
