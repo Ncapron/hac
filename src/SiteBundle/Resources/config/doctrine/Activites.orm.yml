@@ -16,6 +16,6 @@ SiteBundle\Entity\Activites:
             type: string
             length: 255
         cout:
-            type: string
+            type: integer
             length: 255
     lifecycleCallbacks: {  }
