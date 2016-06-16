@@ -13,7 +13,7 @@ SiteBundle\Entity\Voyage:
             type: string
             length: 255
             column: nom_projet
-        date:
+        date_depart:
             type: date
         nombresJours:
             type: integer
